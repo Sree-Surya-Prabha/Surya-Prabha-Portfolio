@@ -18,9 +18,9 @@ export default function Hero() {
         </h2>
 
         <p className="hero-desc">
-          Passionate about building modern, reliable, and user-friendly web
-          applications with strong problem-solving skills and clean UI design.
-        </p>
+          Passionate about building modern, reliable, and user-friendly web 
+          applications, with a strong focus on problem-solving, performance, and clean UI design.
+          </p>
 
         <div className="hero-actions">
           <a href="#contact" className="hero-btn primary">Get In Touch</a>

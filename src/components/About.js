@@ -12,7 +12,7 @@ export default function About() {
 
         <div className="about-content">
           <p>
-            I am a <span>Computer Science student</span> passionate about
+            I am a <span>Computer Science student 🧑‍🎓</span> passionate about
             <span> Web Development</span>, <span>IoT Systems</span>, and building
             <span> real-time applications</span>.
           </p>

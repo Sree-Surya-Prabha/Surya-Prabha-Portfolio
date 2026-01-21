@@ -12,7 +12,7 @@ export default function Skills() {
         <div className="card">
           <img src={prog} alt="Programming Skills" />
           <h3>Programming Skills</h3>
-          <p>Python, Java, C</p>
+          <p> Python, Java, C </p>
         </div>
 
         <div className="card">
