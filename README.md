@@ -70,6 +70,8 @@ npm start
 The app will run on:
 👉 http://localhost:3000
 
+---
+
 ## 📄 Resume
 
 You can download my resume directly from the portfolio website using the **Download Resume** button.
