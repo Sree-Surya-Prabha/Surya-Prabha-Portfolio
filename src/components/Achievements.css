@@ -1,41 +1,63 @@
-.achievements {
-  padding: 80px 8%;
-}
-
-.achievement-grid {
+/* Achievements Section */
+.achievements-grid {
+  max-width: 1100px;
+  margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
-  margin-top: 40px;
 }
 
+/* Achievement Card */
 .achievement-card {
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.06);
   padding: 25px;
+  border-radius: 20px;
   text-align: center;
-  border: 1px solid rgba(255, 105, 180, 0.4);
-  box-shadow: 0 0 25px rgba(255, 105, 180, 0.15);
-  transition: transform 0.3s ease;
+  border: 1px solid rgba(255, 95, 162, 0.3);
+  box-shadow: 0 0 35px rgba(255, 95, 162, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover Effect */
 .achievement-card:hover {
   transform: translateY(-8px);
+  box-shadow: 0 0 55px rgba(255, 95, 162, 0.35);
 }
 
+/* Certificate / Poster Image */
 .achievement-card img {
   width: 100%;
-  max-height: 160px;
-  object-fit: contain;
-  margin-bottom: 15px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 18px;
 }
 
+/* Title */
 .achievement-card h3 {
-  color: #ff69b4;
+  font-size: 1.2rem;
+  color: #ff5fa2;
   margin-bottom: 10px;
 }
 
+/* Description */
 .achievement-card p {
-  color: #ddd;
-  font-size: 0.95rem;
+  font-size: 1rem;
+  color: #dcdcdc;
+  line-height: 1.6;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  .achievement-card img {
+    height: 180px;
+  }
+
+  .achievement-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .achievement-card p {
+    font-size: 0.95rem;
+  }
 }

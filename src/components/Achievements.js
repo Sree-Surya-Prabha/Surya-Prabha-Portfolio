@@ -1,42 +1,51 @@
 import React from "react";
 import "./Achievements.css";
 
-import hackathon from "../assets/hackathon.png";
+// Import images from src/assets
+import hackathon from "../assets/hackfest.png";
 import cultural from "../assets/cultural.png";
-import swarna from "../assets/swarna.png";
+import swarnaAndhra from "../assets/swarna-andhra.png";
 
 export default function Achievements() {
   return (
-    <section className="achievements" id="achievements">
+    <section id="achievements" className="section">
       <h2 className="section-title">Achievements & Awards</h2>
 
-      <div className="achievement-grid">
+      <div className="achievements-grid">
+
+        {/* Hackathon */}
         <div className="achievement-card">
-          <img src={hackathon} alt="Hackathon" />
+          <img src={hackathon} alt="24 Hour Hackathon Participation" />
           <h3>24-Hour Hackathon</h3>
           <p>
-            Participated in <strong>Siddharth HackFest 2K25</strong> at
-            Siddharth Institute of Engineering & Technology.
+            Participated in <strong>Siddharth HackFest 2K25</strong>, a 24-hour
+            hackathon conducted at Siddharth Institute of Engineering &
+            Technology, gaining hands-on problem-solving experience.
           </p>
         </div>
 
+        {/* Cultural Fest */}
         <div className="achievement-card">
-          <img src={cultural} alt="Cultural Fest" />
+          <img src={cultural} alt="Cultural Fest Volunteering" />
           <h3>Cultural Fest Volunteer</h3>
           <p>
-            Volunteered at Cultural Fest at
-            Siddhartha Institute of Science and Technology, Puttur.
+            Volunteered at the Cultural Fest organized at Siddhartha Institute
+            of Science and Technology, Puttur, contributing to event
+            coordination and team collaboration.
           </p>
         </div>
 
+        {/* Swarna Andhra */}
         <div className="achievement-card">
-          <img src={swarna} alt="Swarna Andhra" />
-          <h3>Swarna Andhra</h3>
+          <img src={swarnaAndhra} alt="Swarna Andhra Participation" />
+          <h3>Swarna Andhra Participation</h3>
           <p>
-            Participated in <strong>Swarna Andhra</strong> initiative by
-            SWARNAANDHRABY2047.
+            Actively participated in the <strong>Swarna Andhra</strong> initiative
+            by SwarnaAndhra2047, promoting innovation, development, and
+            community engagement.
           </p>
         </div>
+
       </div>
     </section>
   );
